@@ -1,0 +1,135 @@
+.App {
+	text-align: center;
+	height: 100vh;
+}
+
+@font-face {
+	font-family: "neontubes";
+	src: url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot");
+	src: url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff2")
+			format("woff2"),
+		url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff")
+			format("woff"),
+		url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.ttf")
+			format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+.site-layout-sub-header-background {
+	background: linear-gradient(
+		90deg,
+		rgba(4, 4, 179, 1) 80%,
+		rgba(9, 9, 121, 1) 100%,
+		rgb(215, 229, 231) 100%
+	);
+	opacity: 0.9;
+	text-align: center;
+}
+
+.studentinfo {
+	margin: 0;
+	opacity: 0.8;
+	color: "black";
+}
+
+.axis-baseline {
+	opacity: 0;
+}
+
+.axis-title {
+	opacity: 0.75;
+}
+
+.axis-label {
+	opacity: 0.85;
+}
+
+.tick-line {
+	opacity: 0.35;
+}
+
+.tooltip-content {
+	font-size: 14px;
+	text-align: right;
+	border-radius: 0px 5px 5px 5px;
+	background-color: rgba(0, 5, 11, 0.8);
+	color: snow;
+	padding: 0px 5px 0px 5px;
+}
+
+.ant-card-head {
+	font-size: 24px;
+	text-align: center;
+	font-family: "Abel", sans-serif;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none;
+}
+
+.chart-ridgeline-first {
+	margin-top: -20px;
+	text-align: left;
+	stroke: #85a5ff;
+	opacity: 0.8;
+}
+
+.chart-ridgeline-first:hover {
+	opacity: 1;
+	stroke: #1d39c4;
+}
+
+.chart-ridgeline {
+	margin-top: -40px;
+	stroke: #85a5ff;
+	opacity: 0.85;
+}
+
+.chart-ridgeline:hover {
+	opacity: 1;
+	stroke: #1d39c4;
+}
+
+.chart-ridgeline-brush {
+	margin-top: 10px;
+	opacity: 1;
+}
+
+.brush-label {
+	color: "black";
+}
+
+.gpa {
+	opacity: 0.3;
+	float: left;
+	margin-left: 20px;
+	font-size: 26px;
+}
+
+.neon {
+	font-size: 2vw;
+	font-weight: 400;
+	font-family: neontubes;
+	color: snow;
+	text-shadow: 0 0 0 transparent, 0 0 10px #2695ff,
+		0 0 20px rgba(38, 149, 255, 0.5), 0 0 40px #2695ff, 0 0 100px #2695ff,
+		0 0 200px #2695ff, 0 0 300px #2695ff, 0 0 500px #2695ff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.neon:hover {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none;
+}

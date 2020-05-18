@@ -1,0 +1,25 @@
+@import "~antd/dist/antd.css";
+
+body {
+	background-color: #f0f2f5;
+	color: #fff;
+	text-align: center;
+	line-height: 1.4;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	--color-background: rgba(45, 11, 241, 0.562);
+	--color-on-background: rgb(215, 229, 231) 100%;
+	--color-layer-transparent: rgba(0, 5, 11, 0.8);
+	--color-surface: #1768ff;
+	--color-primary: #1768ff;
+	--color-on-primary: #fff;
+	--color-on-surface: #fff;
+}
+a {
+	color: #fff;
+}
+code {
+	font-size: 12px;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
